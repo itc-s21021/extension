@@ -1,0 +1,30 @@
+@charset "utf-8"
+h1.main-style {^M
+        padding: 0.5em;^M
+        color: #010101;^M
+        background: #eaf3ff;^M
+        border-bottom: solid 3px #516ab6;
+h2.main-style {^M
+        padding: 0.25em 0.5em;/*上下 左右の余白*/^M
+        color: #494949;/*文字色*/^M
+        background: transparent;/*背景透明に*/^M
+        border-left: solid 5px #7db4e6;/*左線*/^M
+h3.main-style {
+        padding: 0.5em;
+        color: #010101;
+        background: #eaf3ff;
+        border-bottom: solid 3px #516ab6;
+#ch07-1-a {
+        font-size: 16px;
+
+}
+
+#ch07-1-a div {
+        font-size: 0.8em;
+}
+#ch07-1-a {
+        line-height: 1.7;
+}
+#ch07-1-a .important {
+        color: #ff0000;
+
