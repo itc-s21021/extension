@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="apple-touch-icon" href="../apple-touch-icon">
+    <meta name="description" content="子供から大人まで、プログラミングを学ぶなら、cosera。">
+    <title>お申し込み</title>
+    <link rel="stylesheet" href="../css/nomalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-container">
+            <div class="header-inner">
+                <h1 class="header-logo"> <a href="../index.html">
+                        <img src="../images/logo.png" alt="Codera">
+                    </a></h1>
+                <button accesskey="A" tabindex="0" class="menu-btn" id="mobile-menu"></button>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="container nav-container">
+            <ul class="navbar">
+                <li><a href="../index.html">ホーム</a></li>
+                <li><a href="../course/index.html">コース紹介</a></li>
+                <li><a href="../qanda/index.html">よくある質問</a></li>
+                <li><a href="../contact/index.html">お申し込み</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <h1>お申し込み</h1>
+        <div class="contact">
+            <p>受講をご希望の方は、以下のフォームに必要事項を入力してください。</p>
+            <form action="#" method="POST">
+                <p><label for="name-field">お名前</label><br>
+                    <input type="text" name="name" value="" id="name-field">
+                </p>
+                <p><label for="email-field">メールアドレス</label><br>
+                    <input type="email" name="email" value="" id="email-field">
+                </p>
+                <p>
+                    <label for="course">ご希望のコース</label><br>
+                    <select tabindex="0" name="course" id="course">
+                        <option value="" selected>コースを選択してください</option>
+                        <option value="course1">HTML&amp;CSS基礎</option>
+                        <option value="course2">WordPressサイト構築</option>
+                        <option value="course3">Pythonでデータ分析</option>
+                        <option value="course4">Rubyスクレイピング</option>
+                    </select>
+                </p>
+                <p><label for="comment">ご意見・ご質問など</label><br>
+                    <textarea accesskey="A" tabindex="0" name="comment" id="comment">ご自由にお書きください</textarea>
+                </p>
+                <p><input type="submit" name="submit" value="入力した内容を確認" id="submit"></p>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container footer-container">
+            <ul class="footer-nav">
+                <li><a href="../course/index.html">コース紹介</a></li>
+                <li><a href="../qanda/index.html">よくある質問</a></li>
+                <li><a href="../contact/index.html">お申し込み</a></li>
+            </ul>
+            <p class="footer-copyright">
+                &copy; codera
+            </p>
+        </div>
+    </footer>
+    <script src="../script/script.js"></script>
+</body>
+
+</html>
